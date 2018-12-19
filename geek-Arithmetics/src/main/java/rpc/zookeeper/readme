@@ -1,0 +1,25 @@
+znode创建类型(CreateMode),有以下四种:
+
+PERSISTENT                持久化节点
+
+PERSISTENT_SEQUENTIAL     顺序自动编号持久化节点，这种节点会根据当前已存在的节点数自动加 1
+
+EPHEMERAL                 临时节点， 客户端session超时这类节点就会被自动删除
+
+EPHEMERAL_SEQUENTIAL      临时自动编号节点
+
+使用create命令，可以创建一个Zookeeper节点， 如
+
+　　create [-s] [-e] path data acl
+
+　　其中，-s或-e分别指定节点特性，顺序或临时节点，若不指定，则表示持久节点；acl用来进行权限控制。
+   使用 create -s /zk-test 123 命令创建zk-test顺序节点
+
+
+zk启动：
+    1.sh zkServer.sh start conf/zoo.cfg   --指定zoo.cfg文件
+    2.sh zkServer.sh status  --查看状态
+    3.sh zkCli.sh -server 127.0.0.1:2181  --进入命令模式
+    3.help --查看指令
+
+http://www.cnblogs.com/raphael5200/p/5285583.html

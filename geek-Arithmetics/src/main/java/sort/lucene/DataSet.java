@@ -1,0 +1,35 @@
+package sort.lucene;
+/** 
+ * @author 吴健  (HQ01U8435)	Email : wujian@metersbonwe.com 
+ * @version 创建时间：2012-3-31 上午9:36:27 
+ */
+public class DataSet {
+
+	public static class IntegerArray {
+		public static int[] s1={683066,683065,683064,683062,683061,683059,683058,683057,683056,
+				683055,683054,683053,683052,683051,683050,683049,683048,683047,683046,683045,683044,
+				683044,683043,683042,683041,683040,683039,683038,683037,683036,683035,683034};
+		
+		public static int[] s2={683039,683066,683059,683058,683057,683056,683055,683054,683053,683052,683051,683050,683049,683048,683045,683044,
+				683044,683043,683042,683041,683040,683038,683036,683035,683034,683033};
+		
+		public static int[] s3={683051,683066,683065,683041,683050,683049,683048,683047,683035};
+		
+		public static int[] s4={683039,683066,683065,683064,683063,683062,683061,683059,683058,
+				683055,683054,683053,683052,683049,683048,683047,
+				683042,683041,683040,683038,683036,683035,683034,683031};
+		
+		public static int[] s5={683065,683064,683063,683062,683061,683059,683056,
+				683055,683054,683053,683050,683049,683048,683047,683046,683045,683044,
+				683044,683043,683034,683041,683032};
+	}
+	
+	public static class Scorers {
+
+		public static MyScorer sc1 = new MyScorer(DataSet.IntegerArray.s1);
+		public static MyScorer sc2 = new MyScorer(DataSet.IntegerArray.s2);
+		public static MyScorer sc3 = new MyScorer(DataSet.IntegerArray.s3);
+		public static MyScorer sc4 = new MyScorer(DataSet.IntegerArray.s4);
+		public static MyScorer sc5 = new MyScorer(DataSet.IntegerArray.s5);
+	}
+}

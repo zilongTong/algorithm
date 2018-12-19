@@ -1,0 +1,14 @@
+wujian,1,5
+wujian,2,3
+wujian,3,4
+wujian,4,4
+wujian,6,4
+smile,1,5
+smile,2,3
+smile,3,4
+smile,4,3.8
+smile,5,4
+jim,3,4
+jim,4,3.8
+jim,5,4
+jim,1,4

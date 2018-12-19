@@ -1,0 +1,9 @@
+Java 的 I/O 操作类在包 java.io 下，大概有将近 80 个类，但是这些类大概可以分成四组，分别是：
+1.基于字节操作的 I/O 接口：InputStream 和 OutputStream
+2.基于字符操作的 I/O 接口：Writer 和 Reader
+3.基于磁盘操作的 I/O 接口：File
+4.基于网络操作的 I/O 接口：Socket
+
+从程序角度而言，InputStream（输入流）是 从外部到程序内部读的过程，所以是 read
+
+从程序角度而言，OutputStream（输出流）是 从程序内部到外部写的过程，所以是 write
