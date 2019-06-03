@@ -1,0 +1,5 @@
+1.设计配置属性和JavaBean
+2.编写XSD文件
+3.编写NamespaceHandler和BeanDefinitionParser完成解析工作(NamespaceHandler会根据schema和节点名找到某个BeanDefinitionParser，然后由BeanDefinitionParser完成具体的解析工作)
+4.编写spring.handlers和spring.schemas串联起所有部件
+5.在Bean文件中应用

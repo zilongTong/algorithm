@@ -3,9 +3,6 @@ package analyze.one;
 import java.io.IOException;
 import java.util.List;
 
-import analyze.one.Analyzer;
-import analyze.one.Test;
-
 import junit.framework.TestCase;
 
 public class AnalyzerTest extends TestCase {
@@ -15,7 +12,7 @@ public class AnalyzerTest extends TestCase {
 	static {
 		try {
 			analyzer.initDictMap();
-			src = Test.getSrc("test");
+			src = Test.getSrc("orion");
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

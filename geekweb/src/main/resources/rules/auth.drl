@@ -1,0 +1,24 @@
+
+package rules
+
+import org.geek.web.leo.drools.facts.AuthRulePackage;
+
+rule "Pronvince"
+	activation-group "auth" /**属于同一组的规则，只要命中一个就会退出***/
+	salience 10  /**数值越大，权重越高，越先执行***/
+    when
+		temp : AuthRulePackage (province == "浙江")
+    then
+        temp.setResult("1");
+        temp.setMessage("匹配到浙江");
+end
+
+rule "City"
+	activation-group "auth"
+	salience 9
+    when
+		temp : AuthRulePackage (city == "杭州")
+    then
+        temp.setResult("1");
+        temp.setMessage("匹配到杭州");
+end

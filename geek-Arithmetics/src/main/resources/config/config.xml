@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+	<property name="driverClassName">com.mysql.jdbc.Driver</property>
+	<property name="url">jdbc:mysql://59.110.238.22:3306/orion?useUnicode=true&amp;characterEncoding=utf8</property>
+	<property name="username">noone</property>
+	<property name="password">n00ne1992</property>
+</database>

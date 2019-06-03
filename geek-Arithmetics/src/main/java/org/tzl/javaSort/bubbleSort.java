@@ -11,8 +11,6 @@
 package org.tzl.javaSort;
 
 
-import sun.util.locale.provider.FallbackLocaleProviderAdapter;
-
 import static org.tzl.javaSort.selectSort.swap;
 
 /**

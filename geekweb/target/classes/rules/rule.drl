@@ -1,0 +1,27 @@
+import org.geek.web.leo.drools.dynamic.TraceLog// 导入类
+import org.geek.web.leo.drools.dynamic.Message
+
+dialect  "mvel"
+
+rule "join_room"          // 规则名，唯一
+    salience  0    //优先级,数字越大执行的优先级越高
+    no-loop true   //防止死循环
+    when
+        $log : TraceLog(join_room_success.equals(false))     //规则的条件部分
+        $message : Message()
+    then
+         $message.setMessage("进入课堂失败");
+                update($message);
+end
+
+rule "remote_video"
+    salience  0
+    no-loop true
+    when
+        $log : TraceLog(remote_video.equals(false))
+          $message : Message()
+    then
+         $message.setMessage("加入房间失败");
+                update($message);
+end
+

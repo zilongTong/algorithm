@@ -18,7 +18,7 @@ public class ServerTest {
     public static void main(String[] args) {
         ILeoService iLeoService = new LeoServiceImpl();
         IRegisterCenter registerCenter = new RegisterCenterImpl();
-        RpcServer server = new RpcServer(registerCenter, "127.0.0.1:8080");
+        RpcServer server = new RpcServer(registerCenter, "127.0.0.1:8089");
         server.bind(iLeoService);
         server.publisher();
     }

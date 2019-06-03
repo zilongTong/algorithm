@@ -19,7 +19,7 @@ public class TestFuture {
 
 		FutureTask<String> futureTask = new FutureTask<String>(new Callable<String>() {//使用Callable接口作为构造参数   
 		         public String call() {
-					return "test";   
+					return "orion";
 		           //真正的任务在这里执行，这里的返回值类型为String，可以为任意类型   
 		       }});
 		executor.execute(futureTask);

@@ -17,7 +17,7 @@ public class Conf {
     static {
         FACTORY.setHost("192.168.50.32");
         FACTORY.setPort(5672);
-        FACTORY.setVirtualHost("test");
+        FACTORY.setVirtualHost("orion");
         FACTORY.setUsername("admin");
         FACTORY.setPassword("admin");
     }

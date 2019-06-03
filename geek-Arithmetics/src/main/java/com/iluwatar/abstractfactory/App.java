@@ -6,7 +6,7 @@ package com.iluwatar.abstractfactory;
  * ({@link KingdomFactory}) and its implementations ({@link ElfKingdomFactory},
  * {@link OrcKingdomFactory}).
  * <p>
- * The example uses both concrete implementations to create a king, a castle and
+ * The bot uses both concrete implementations to create a king, a castle and
  * an army.
  * 
  */

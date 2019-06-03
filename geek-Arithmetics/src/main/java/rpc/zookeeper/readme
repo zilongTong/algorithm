@@ -13,7 +13,7 @@ EPHEMERAL_SEQUENTIAL      临时自动编号节点
 　　create [-s] [-e] path data acl
 
 　　其中，-s或-e分别指定节点特性，顺序或临时节点，若不指定，则表示持久节点；acl用来进行权限控制。
-   使用 create -s /zk-test 123 命令创建zk-test顺序节点
+   使用 create -s /zk-orion 123 命令创建zk-test顺序节点
 
 
 zk启动：

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kmodule xmlns="http://jboss.org/kie/6.0.0/kmodule">
+
+    <kbase name="ag" packages="rules">
+        <ksession name="myAgeSession"/>
+    </kbase>
+    <kbase name="auth" packages="drools">
+        <ksession name="AuthRulePackage"/>
+    </kbase>
+    <kbase name="personal" packages="drools">
+        <ksession name="PersonalRulePackage"/>
+    </kbase>
+
+</kmodule>

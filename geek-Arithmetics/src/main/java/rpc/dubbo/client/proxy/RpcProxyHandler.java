@@ -15,6 +15,7 @@ import io.netty.util.CharsetUtil;
  * @since [产品/模块版本] （可选）
  */
 public class RpcProxyHandler extends SimpleChannelInboundHandler<ByteBuf> {
+
     private String response;
 
     public String getResponse() {
@@ -27,6 +28,7 @@ public class RpcProxyHandler extends SimpleChannelInboundHandler<ByteBuf> {
         String result = msg.toString(CharsetUtil.UTF_8);
         System.out.println("RpcProxyHandler-----" + result);
         this.response = result;
+        ctx.close();
     }
 
     @Override

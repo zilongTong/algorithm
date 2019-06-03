@@ -1,0 +1,20 @@
+rdb:
+  oracle:
+    username: OracleUse&1
+    password: OrcUse*&1
+    driverClassName: oracle.jdbc.OracleDriver
+    url: jdbc:oracle:thin:@192.168.0.2:1521:xe
+  mysql:
+    username: MySQLUse&1
+    password: MyUse*&1
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.1:3306/financials_rules?autoCommit=true
+
+nosql:
+  mongodb:
+    username: MongoUse&1
+    password: MgoUse*&1
+  redis:
+    password: RdsUse*&1
+
+newsql:

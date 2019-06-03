@@ -13,7 +13,7 @@ public class VectorTest {
 		
 		Vector<String> vector = new Vector<>();
 		
-		vector.add("test");
+		vector.add("orion");
 		
 	}
 }
