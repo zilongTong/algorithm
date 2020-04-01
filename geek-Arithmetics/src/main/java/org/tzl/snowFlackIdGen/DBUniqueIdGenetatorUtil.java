@@ -1,21 +1,7 @@
-/*
- * Copyright (C),2016-2017. 上海朔羡网络科技有限公司
- * FileName: DBUniqueIdGenetatorUtil.java
- * Author:  tongzilong@mgzf.com
- * Date:     2017-12-25 11 : 45:04
- * Description: //模块目的、功能描述
- * History: //修改记录 修改人姓名 修改时间 版本号 描述
- * <tongzilong>  <2017-12-25 11 : 45:04> <version>   <desc>
- */
-
 package org.tzl.snowFlackIdGen;
-
-
-
 
 import org.apache.commons.lang3.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
-
 import java.net.Inet4Address;
 import java.net.InetAddress;
 import java.net.UnknownHostException;

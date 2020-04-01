@@ -3,10 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:leooo="http://leo"
        xsi:schemaLocation="
-        http://www.springframework.org/schema/beans
-        http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
-        http://leo
-        http://leo.xsd">
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+       http://leo
+       http://leo.xsd">
 
     <leooo:leooo id="leoService" name="宋仲基" interfaces="springnamespace.ILeoService"/>
     <leooo:leooo id="tonService" name="宋仲基" interfaces="springnamespace.ITonService"/>

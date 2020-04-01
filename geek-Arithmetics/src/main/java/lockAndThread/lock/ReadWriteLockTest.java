@@ -104,7 +104,7 @@ public class ReadWriteLockTest {
 
     public static void main(String[] args) {
 
-        final ReadWriteLockTest shareData = new ReadWriteLockTest();
+        final ReadWriteLockTest test = new ReadWriteLockTest();
 
         /**
 
@@ -128,7 +128,7 @@ public class ReadWriteLockTest {
 
                     }
 
-                    shareData.read();
+                    test.read();
 
                 }
 
@@ -154,7 +154,7 @@ public class ReadWriteLockTest {
 
                     try {
 
-                        shareData.write( new Random().nextLong()+ "" );
+                        test.write( new Random().nextLong()+ "" );
 
                     } catch (InterruptedException e) {
 
