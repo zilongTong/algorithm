@@ -17,6 +17,7 @@
         <module>geek-Arithmetics</module>
         <module>geek-api</module>
         <module>geek-designPattern</module>
+        <module>geek-datastructure</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
