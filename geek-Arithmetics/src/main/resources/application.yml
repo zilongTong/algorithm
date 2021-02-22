@@ -1,0 +1,8 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: leo-core
+logging:
+  file: /var/log/${spring.application.name}/${spring.application.name}

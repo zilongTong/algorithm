@@ -2,6 +2,10 @@ package matrix;
 
 public class Matrix {
 
+
+
+
+
 	private double[][] _h;
 	private int _m;
 	private int _n;

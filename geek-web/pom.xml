@@ -119,12 +119,6 @@
             <version>1.2.0</version>
         </dependency>
         <dependency>
-            <groupId>com.ctrip.framework</groupId>
-            <artifactId>cornerstone</artifactId>
-            <version>0.2.1</version>
-        </dependency>
-
-        <dependency>
             <groupId>com.google.code.gson</groupId>
             <artifactId>gson</artifactId>
             <version>[2.3.1,)</version>
@@ -181,13 +175,6 @@
             <artifactId>droolsjbpm-tools-distribution</artifactId>
             <version>7.3.0.Final</version>
             <type>pom</type>
-        </dependency>
-
-        <!-- log -->
-        <dependency>
-            <groupId>com.zhangmen.arch.logger</groupId>
-            <artifactId>zm-infrastucture-logger</artifactId>
-            <version>1.0.0.RELEASE</version>
         </dependency>
     </dependencies>
     <dependencyManagement>

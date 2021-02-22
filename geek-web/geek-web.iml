@@ -25,6 +25,8 @@
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:1.5.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-autoconfigure:1.5.17.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-logging:1.5.17.RELEASE" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
+    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jcl-over-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:jul-to-slf4j:1.7.25" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:log4j-over-slf4j:1.7.25" level="project" />
@@ -76,6 +78,7 @@
     <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-core:2.2.5" level="project" />
     <orderEntry type="library" name="Maven: commons-lang:commons-lang:2.6" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-httpclient:2.2.5" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-commons-util:0.1.1" level="project" />
     <orderEntry type="library" name="Maven: com.netflix.ribbon:ribbon-loadbalancer:2.2.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Maven: com.netflix.netflix-commons:netflix-statistics:0.1.1" level="project" />
@@ -208,7 +211,6 @@
     <orderEntry type="library" name="Maven: javax.inject:javax.inject:1" level="project" />
     <orderEntry type="library" name="Maven: aopalliance:aopalliance:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.slf4j:slf4j-api:1.7.25" level="project" />
-    <orderEntry type="library" name="Maven: com.ctrip.framework:cornerstone:0.2.1" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.8.6" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.janino:janino:3.0.8" level="project" />
     <orderEntry type="library" name="Maven: org.codehaus.janino:commons-compiler:3.0.8" level="project" />
@@ -254,17 +256,5 @@
     <orderEntry type="library" name="Maven: org.drools:drools-persistence-api:7.3.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jbpm:jbpm-query-jpa:7.3.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.hibernate.javax.persistence:hibernate-jpa-2.1-api:1.0.0.Final" level="project" />
-    <orderEntry type="library" name="Maven: com.zhangmen.arch.logger:zm-infrastucture-logger:1.0.0.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: commons-beanutils:commons-beanutils:1.9.3" level="project" />
-    <orderEntry type="library" name="Maven: commons-collections:commons-collections:3.2.2" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-aop:1.5.17.RELEASE" level="project" />
-    <orderEntry type="library" name="Maven: org.aspectj:aspectjweaver:1.8.13" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-core:1.1.11" level="project" />
-    <orderEntry type="library" name="Maven: ch.qos.logback:logback-classic:1.1.11" level="project" />
-    <orderEntry type="library" name="Maven: com.github.danielwegener:logback-kafka-appender:0.2.0-RC1" level="project" />
-    <orderEntry type="library" name="Maven: org.apache.kafka:kafka-clients:1.0.0" level="project" />
-    <orderEntry type="library" name="Maven: org.lz4:lz4-java:1.4" level="project" />
-    <orderEntry type="library" name="Maven: org.xerial.snappy:snappy-java:1.1.4" level="project" />
-    <orderEntry type="library" name="Maven: net.logstash.logback:logstash-logback-encoder:5.2" level="project" />
   </component>
 </module>
