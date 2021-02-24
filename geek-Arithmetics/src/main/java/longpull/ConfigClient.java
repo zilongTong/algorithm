@@ -8,7 +8,6 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClientBuilder;
 
-
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
@@ -27,7 +26,15 @@ public class ConfigClient {
     public ConfigClient() {
         this.httpClient = HttpClientBuilder.create().build();
         // ① httpClient 客户端超时时间要大于长轮询约定的超时时间
-        this.requestConfig = RequestConfig.custom().setSocketTimeout(40000).build();
+        // setConnectTimeout 连接时间
+        //setSocketTimeout 数据传输时间
+        this.requestConfig = RequestConfig.custom()
+                //从连接池中获取连接的超时时间
+                .setConnectionRequestTimeout(1000)
+                //与服务器连接超时时间：httpclient会创建一个异步线程用以创建socket连接，此处设置该socket的连接超时时间
+                .setConnectTimeout(2000)
+                //socket读数据超时时间：从服务器获取响应数据的超时时间
+                .setSocketTimeout(4000).build();
     }
 
     @SneakyThrows
@@ -61,7 +68,6 @@ public class ConfigClient {
                 throw new RuntimeException("unExcepted HTTP status code");
             }
         }
-
     }
 
     public static void main(String[] args) {
